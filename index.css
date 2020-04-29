@@ -1,0 +1,253 @@
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(82, 82, 82, 1);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(82, 82, 82, 1);
+}
+
+.left{
+  border-radius: 5px;
+  text-align: left;
+ background-color: #222831;
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  left: 15px;
+  top: 200px;
+  z-index: -1;
+}
+
+.logo{
+  background-color: #2c003e;
+  padding: 10px;
+  border-radius: 20px;
+  position: fixed;
+  left: 40px;
+  top: 40px;
+}
+
+.links{
+  color: White;
+  position: fixed;
+  top: 30px;
+  left: 6px;
+}
+
+.images{
+  background-color: #dfdfdf;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0;
+  position: fixed;
+  top: 550px;
+  left: 2px;
+}
+
+.student{
+  background-color: #525252;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0;
+  border-radius: 20px 0  20px 0;
+
+}
+
+
+.copy{
+  color: White;
+  position: fixed;
+  top: 620px;
+  left: 75px;
+}
+
+.scroll{
+  position: fixed;
+  top:87%;
+  left: 20%;
+}
+.intro{
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+}
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 200px;
+
+}
+
+#slide {
+    position: absolute;
+    left: -600px;
+    width: 600px;
+    height: 370px;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+.wrapper:hover #slide {
+    transition: 1s;
+    left: 0;
+}
+
+.css3gallery img{
+-webkit-transform:scale(0.8); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(0.8); /*Mozilla scale version*/
+-o-transform:scale(0.8); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.7; /*initial opacity of images*/
+margin: 0 10px 5px 0; /*margin between images*/
+}
+
+.css3gallery img:hover{
+-webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.1); /*Mozilla scale version*/
+-o-transform:scale(1.1); /*Opera scale version*/
+box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+opacity: 1;
+}
+
+a {
+  cursor: pointer;
+
+}
+a:hover
+
+{
+color: black;
+}
+
+.right{
+
+
+  height: 85%;
+  width: 85%;
+  /* margin: 35px 20px 0 0; */
+  position: fixed;
+  top:0;
+  right: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+.sp{
+  padding-right: 100px;
+}
+
+
+.h1, h2, h3, h4, h5, h6{
+font-weight: normal;
+}
+
+.display-4{
+  font-size: 200px;
+}
+
+
+/* BUTTON {
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid #d9d9d9;
+    text-shadow: 1px 1px #fff;
+} */
+
+.upper{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background-color: #222831;
+  width: 200px;
+  height: 200px;
+  z-index: 3;
+
+}
+
+
+.innerBox{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #dfdfdf;
+  font-weight:lighter;
+  z-index: 1;
+
+
+}
+.h4{
+  font-family: sans-serif;
+}
+.image{
+    float: left;
+    margin: 20px 15px;
+
+}
+
+.dp{
+      display: relative;
+      float: right;
+      margin: 20px 15px;
+      z-index: 2;
+
+
+}
+
+.details{
+text-align: left;
+}
+
+.navigation{
+  margin: 0;
+  padding: 50px;
+  background-color: black;
+  color: white;
+}
+.d6{
+  margin: 0;
+
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
