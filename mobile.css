@@ -13,10 +13,10 @@
     }
 .logo
     {
-      background-color: white;
-      opacity: 0.5;
+      /*background-color: white;*/
+      opacity: 1;
       position: absolute;
-      top: 2%;
+      top: 10%;
       left: 2%;
       margin:10px
     }
