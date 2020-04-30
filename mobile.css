@@ -40,6 +40,7 @@
   /* z-index: 0; */
 }
 .info{
+  width: 100%;
   position: absolute;
   top: 300px;
 }
@@ -47,16 +48,9 @@
 
   width: 100%;
   position: absolute;
-  top: 550px;
+  top: 600px;
 }
-.foot{
-  width: 100%;
-  display: block;
-  padding: 20px;
-  background-color: grey;
-  position: absolute;
-  bottom: 0px;
-}
+
 .arrow{
   float: right;
 }
