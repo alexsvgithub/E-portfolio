@@ -11,7 +11,7 @@
   </head>
   <body style="background-color:#2C003E;">
 
-    <img class="bg" src="images/bg.jpg" alt="background">
+    <!-- <img class="bg" src="images/bg.jpg" alt="background">
     <img src="images/pce.png" class="logo" alt="logo">
 
     <div class="content">
@@ -23,11 +23,27 @@
       </span>
     </h1>
 
+    <button type="button" class="btn btn-success enter" onclick="check();">Enter</button> -->
+    <div class="content">
+      <h4 class="display-4">Loading...</h4>
+    </div>
     <button type="button" class="btn btn-success enter" onclick="check();">Enter</button>
-
+    <div class="lds-roller loading"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
         <script type="text/javascript">
+
+        $("button").hide();
+        $(document).ready(function() {
+          setTimeout(function() {
+            $(".enter").trigger('click');
+          }, 1500);
+
+          $("#signInButton").click(function(){
+            alert("I'm clicked!");
+          });
+        });
+
           function check(){
           if (document.documentElement.clientWidth < 700){
           document.location = "mobile.html";
