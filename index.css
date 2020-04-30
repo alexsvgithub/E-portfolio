@@ -55,7 +55,7 @@
   display: inline-block;
   border-radius: 0 20px 20px 0;
   position: fixed;
-  top: 550px;
+  top: 500px;
   left: 2px;
 }
 
@@ -72,8 +72,8 @@
 .copy{
   color: White;
   position: fixed;
-  top: 620px;
-  left: 75px;
+  top: 600px;
+  left: 65px;
 }
 
 .scroll{

@@ -47,7 +47,15 @@
 
   width: 100%;
   position: absolute;
-  top: 600px;
+  top: 550px;
+}
+.foot{
+  width: 100%;
+  display: block;
+  padding: 20px;
+  background-color: grey;
+  position: absolute;
+  bottom: 0px;
 }
 .arrow{
   float: right;
