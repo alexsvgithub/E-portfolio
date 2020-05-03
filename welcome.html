@@ -11,19 +11,6 @@
   </head>
   <body style="background-color:#2C003E;">
 
-    <!-- <img class="bg" src="images/bg.jpg" alt="background">
-    <img src="images/pce.png" class="logo" alt="logo">
-
-    <div class="content">
-      <h4 class="display-4">Welcome To</h4>
-    </div>
-    <h1 class="ml9">
-      <span class="text-wrapper">
-        <span class="letters">E-Portfolio</span>
-      </span>
-    </h1>
-
-    <button type="button" class="btn btn-success enter" onclick="check();">Enter</button> -->
     <div class="content">
       <h4 class="display-4">Loading...</h4>
     </div>
@@ -53,26 +40,7 @@
           }
             }
 
-          // Wrap every letter in a span
-    var textWrapper = document.querySelector('.ml9 .letters');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-    anime.timeline({loop: true})
-      .add({
-        targets: '.ml9 .letter',
-        scale: [0, 1],
-        duration: 1500,
-        elasticity: 600,
-        delay: (el, i) => 45 * (i+1)
-      })
-       .add({
-        targets: '.ml9',
-        opacity: 0,
-       duration: 1000,
-         easing: "easeOutExpo",
-        delay: 1000
-       });
-
+      
 
 
         </script>
