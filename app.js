@@ -17,12 +17,7 @@ $(document).ready(function() {
 });
 
 
-// $('body').click(function(evt){
-//     if(!$(evt.target).is('#menu_content')) {
-//         //event handling code
-//         $('.right').scrollTop(0);
-//     }
-// });
+
 
 function image(){
   location.href='images/resumedorx.docx';
